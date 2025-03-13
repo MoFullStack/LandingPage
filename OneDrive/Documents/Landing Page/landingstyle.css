@@ -10,7 +10,7 @@ body {
 }
 
 .header-logo {
-    padding-left: 20px;
+    padding-left: 100px;
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -28,3 +28,50 @@ body {
     font-size: 18px;
     padding-right: 15px;
   }
+
+.hero {
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.hero-container {
+    width: 450px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 450px;
+}
+
+.placeholder {
+    background-color: grey;
+    color: white;
+    height: 200px;
+    width: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    margin-left: 50px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+}
